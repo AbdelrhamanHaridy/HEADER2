@@ -1,0 +1,40 @@
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 767px) {
+	#Banner .blacksection::before {
+		display: none;
+	}
+	#Banner {
+		width: 100%;
+	}
+	header {
+		background: #e64741; /* Old browsers */
+		position: fixed;
+		width: 100%;
+		padding: 20px;
+		z-index: 99999;
+	}
+	header .mobile-logo {
+		display: block;
+		width: 60px;
+	}
+	#Banner .logo {
+		display: none;
+	}
+	.mobile-logo img {
+		width: 100%;
+		height: auto;
+	}
+	#Banner h1 {
+		font-size: 40px;
+		right: auto;
+		top: 50%;
+		transform: translate(-50%,-50%);
+		opacity: 1;
+		left: 50%;
+		text-align: left;
+	}
+	.mobile-header {
+		display: block;
+	}
+	
+}
